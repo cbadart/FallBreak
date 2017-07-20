@@ -1,0 +1,51 @@
+.navbar{
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+}
+
+img{
+    width: 100%;
+}
+
+#background1{
+    background-image: url(../imgs/sky.jpg);
+}
+
+#background2{
+    background-image: url(../imgs/beach.jpg);
+}
+
+#main{
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+#travel{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #e2f1f9;
+}
+
+#googlemap{
+    z-index: 1;
+    height: 400px;
+    width: 100%;
+    //position: absolute;
+}
+
+#right-panel{
+    z-index: 10;
+    height: 400px;
+    width: 390px;
+    overflow: auto;
+    background: white;
+    position: absolute;
+}
+
+#map{
+    padding-bottom: 60px;
+}
